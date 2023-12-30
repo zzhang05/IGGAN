@@ -2,7 +2,7 @@
 
 We have provided the pre-trained IGGAN models on CIFAR-10 and CIFAR-100 datasets for better obtaining the results we reported in the paper. The code of this module is build on our selves based on the test model the DiffAug-GAN [[link]](https://github.com/mit-han-lab/data-efficient-gans) and NDA-GAN [[link]](https://github.com/ermongroup/NDA). 
 
-# Requirement: 
+# Requirement
 
 PyTorch version==1.7.1.
 
@@ -11,7 +11,7 @@ TensorFlow 1.14 or 1.15 with GPU support (for IS and FID calculation).
 Other python libs in DiffAug-GAN [[link]](https://github.com/mit-han-lab/data-efficient-gans) and NDA-GAN [[link]](https://github.com/ermongroup/NDA).
 
 
-# IGGAN pre-trained models:
+# IGGAN pre-trained models
 
 Pre-trained IGGAN on Unconditional CIFAR-10 dataset [[link]](https://drive.google.com/file/d/1Qscbpb5hiXxmQ_6NrWSCMSU8WjO4sZ1l/view?usp=sharing)
 
@@ -24,3 +24,36 @@ Pre-trained IGGAN on Unconditional CIFAR-100 dataset [[link]](https://drive.goog
 Pre-trained IGGAN on Conditional CIFAR-100 dataset [[link]](https://drive.google.com/file/d/1AerOct_0j0rSRr68k5rSN2C2Oxx6jBSy/view?usp=sharing)
 
 Pre-trained IGGAN on Conditional 10% CIFAR-100 dataset [[link]](https://drive.google.com/file/d/1yWaZ8S0tUkpoWFxE27LJQpdk-z0JDUaE/view?usp=sharing)
+
+# Evaluation
+
+To evaluate a pre-trained IGGAN model on Unconditional CIFAR-10, run the following command:
+```
+python3 eval.py --dataset=C10U --network=IGGAN_C10U.pth
+```
+
+To evaluate a pre-trained IGGAN model on Conditional CIFAR-10, run the following command:
+```
+python3 eval.py --dataset=C10 --network=IGGAN_C10.pth
+```
+
+To evaluate a pre-trained IGGAN model on Conditional 10% CIFAR-10, run the following command:
+```
+python3 eval.py --dataset=C10 --network=IGGAN_C10_0.1.pth
+```
+
+To evaluate a pre-trained IGGAN model on Unconditional CIFAR-100, run the following command:
+```
+python3 eval.py --dataset=C100U --network=IGGAN_C100U.pth
+```
+
+To evaluate a pre-trained IGGAN model on Conditional CIFAR-100, run the following command:
+```
+python3 eval.py --dataset=C100 --network=IGGAN_C100.pth
+```
+
+To evaluate a pre-trained IGGAN model on Conditional 10% CIFAR-100, run the following command:
+```
+python3 eval.py --dataset=C100 --network=IGGAN_C100_0.1.pth
+```
+
