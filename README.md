@@ -61,6 +61,8 @@ Please note that we evaluate all the pre-trained IGGAN models on a ROG laptop wi
 
 We have no plans to release all the training codes at this stage. The training code will be released by an external link in this repo in the future.
 
+
+# Citation:
 ```
 @inproceedings{zhang2024improving,
   title={Improving the Fairness of the Min-Max Game in GANs Training},
