@@ -23,7 +23,7 @@ Pre-trained IGGAN on Unconditional CIFAR-100 dataset [[link]](https://drive.goog
 
 Pre-trained IGGAN on Conditional CIFAR-100 dataset [[link]](https://drive.google.com/file/d/1AerOct_0j0rSRr68k5rSN2C2Oxx6jBSy/view?usp=sharing)
 
-Pre-trained IGGAN on Conditional 10% CIFAR-100 dataset [[link]](https://drive.google.com/file/d/1yWaZ8S0tUkpoWFxE27LJQpdk-z0JDUaE/view?usp=sharing)
+Pre-trained IGGAN on Conditional 10% CIFAR-100 dataset [[link]](https://drive.google.com/file/d/1HeTEM_kBsZ0pOlPsVMgpOvErxHfWjIJI/view?usp=sharing)
 
 # Evaluation
 
