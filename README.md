@@ -59,8 +59,6 @@ python3 eval.py --dataset=C100 --network=IGGAN_C100_0.1.pth
 
 Please note that we evaluate all the pre-trained IGGAN models on a ROG laptop with ubuntu 22.04 with an NVIDIA 980M GPU. The IS and FID will be slightly different (slightly better or worse) if you apply different NVIDIA GPU and different system to evaluate the pre-trained models.
 
-We have no plans to release all the training codes at this stage. The training code will be released by an external link in this repo in the future.
-
 
 # Citation:
 ```
