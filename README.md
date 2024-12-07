@@ -1,4 +1,4 @@
-# Evaluation Codes and Pre-trained models of WACV2024 paper ''Improving the Fairness of the Min-Max Game in GANs Training''
+# Evaluation Codes and Pre-trained models of WACV2024 oral paper ''Improving the Fairness of the Min-Max Game in GANs Training''
 
 We have provided the pre-trained IGGAN models on CIFAR-10 and CIFAR-100 datasets for better obtaining the results we reported in the paper. The code of this module is built by ourselves based on the test codes of the DiffAug-GAN [[link]](https://github.com/mit-han-lab/data-efficient-gans) and NDA-GAN [[link]](https://github.com/ermongroup/NDA). 
 
